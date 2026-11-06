@@ -22,7 +22,7 @@
 
 ## 征服之路上的坐标
 
-一些在深夜里写下的东西，按用途归档。
+一些在深夜里写下的东西，按用途归档。标着「已归档」的坐标早已废弃，留在这里，权当考古现场。
 
 ### LLM Agent · 智能采集
 
@@ -44,9 +44,11 @@
 | --- | --- |
 | [eg_ruishu](https://github.com/jimmy-Smile-ltl/eg_ruishu) | 瑞数 WAF 逆向方案集：12 个真实站点、25+ 技术路线，纯算法 / 补环境 / 浏览器三大技术族 |
 | [eg_akamai](https://github.com/jimmy-Smile-ltl/eg_akamai) | gatekit：Akamai 挑战的探测 / 分析 / 求解工具包，判据全部可离线回归 |
-| [captcha_example](https://github.com/jimmy-Smile-ltl/captcha_example) | 国内主流验证码样本库与求解器：9 家厂商、滑动 / 点选 / 旋转 / 五子棋 / POW 等类型 |
+| [captcha_example](https://github.com/jimmy-Smile-ltl/captcha_example) <sup>已归档</sup> | 国内主流验证码样本库与求解器：9 家厂商、滑动 / 点选 / 旋转 / 五子棋 / POW 等类型 |
 | [fingerprint](https://github.com/jimmy-Smile-ltl/fingerprint) | 浏览器指纹采集与 Node.js 补环境工具集：六大指纹维度全链路复现 |
 | [eg_js_reverse](https://github.com/jimmy-Smile-ltl/eg_js_reverse) | JS 逆向最小化复现集：加密入口 → 算法还原 → 可运行验证 |
+
+> 验证码专题研究已归档，未来或将删除关闭。想考古的，趁页面还在。
 
 ### 一件旧物
 
@@ -57,6 +59,8 @@
 自我批评环节：技术上乏善可陈，代码稚拙，中二浓度过高，处处是当年手忙脚乱的痕迹。它称不上工程，勉强列在这里，权当反面教材。
 
 但它是那两年唯一浇筑过灵魂的代码。写爬虫是为了效率，写它，是为了别的什么——至于「别的什么」是什么，打开页面，它会自己说。
+
+仓库已经归档，Vercel 上还留着它的页面。旧物不死，只是归档。
 
 ---
 
