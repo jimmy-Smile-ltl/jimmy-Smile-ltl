@@ -8,6 +8,12 @@
 &nbsp;
 
 <div align="center">
+<sub>目次 · <a href="#试图征服世界">试图征服世界</a> · <a href="#征服之路上的坐标">坐标</a> · <a href="#一件旧物">旧物</a> · <a href="#筹备中的坐标">筹备</a></sub>
+</div>
+
+&nbsp;
+
+<div align="center">
 <h2>试图征服世界</h2>
 <i>有些事业注定不会成功，但那正是它每晚重启的理由。</i>
 </div>
@@ -28,27 +34,36 @@
 <i>推石头的人不期待山顶。应当设想，大脑鼠是幸福的。</i>
 </div>
 
----
+<div align="center">
+  <img src="assets/divider.svg" alt="" width="100%">
+</div>
 
 ## 征服之路上的坐标
 
 一些在深夜里写下的东西，按用途归档。标着「已归档」的坐标早已废弃，留在这里，权当考古现场。
 
-### LLM Agent · 智能采集
+<details>
+<summary>LLM Agent · 智能采集 · 2 项</summary>
 
 | 项目 | 简介 |
 | --- | --- |
 | [forager-faculty](https://github.com/jimmy-Smile-ltl/forager-faculty) | LLM 驱动的自适应高校教师信息采集框架：评估-修复-再评估闭环、四阶段流水线、五级反 WAF 请求栈 |
 | [forager-epaper](https://github.com/jimmy-Smile-ltl/forager-epaper) | Paper Daily：中文日报自动采集流水线，一条命令生成生产级爬虫，自愈反馈环 + 零配置降级 |
 
-### 爬虫框架与工程
+</details>
+
+<details>
+<summary>爬虫框架与工程 · 2 项</summary>
 
 | 项目 | 简介 |
 | --- | --- |
 | [jimmySpider](https://github.com/jimmy-Smile-ltl/jimmySpider) | 从 140+ 网站实战提炼的 Python 爬虫框架：6 种请求处理器、TLS 指纹伪装、断点续爬 |
 | [clash_proxy](https://github.com/jimmy-Smile-ltl/clash_proxy) | 把机场闲置节点管成爬虫代理池：自动测速、轮换、封禁切换、挂掉自愈 |
 
-### 反爬逆向 · 指纹 · 验证码
+</details>
+
+<details>
+<summary>反爬逆向 · 指纹 · 验证码 · 5 项</summary>
 
 | 项目 | 简介 |
 | --- | --- |
@@ -59,6 +74,8 @@
 | [eg_js_reverse](https://github.com/jimmy-Smile-ltl/eg_js_reverse) | JS 逆向最小化复现集：加密入口 → 算法还原 → 可运行验证 |
 
 > 验证码专题研究已归档，代码仓库或将在未来关闭——但会另出一个无代码开源版：只有初始样本、最终求解结果与求解思路（见下文「筹备中的坐标」）。想考古的，趁页面还在。
+
+</details>
 
 ### 一件旧物
 
@@ -72,17 +89,26 @@
 
 仓库已经归档，Vercel 上还留着它的页面。旧物不死，只是归档。
 
----
+<div align="center">
+  <img src="assets/divider.svg" alt="" width="100%">
+</div>
 
 ## 筹备中的坐标
 
 一些尚未写完的东西，先记在这里。
 
+<details>
+<summary>点击展开 —— 三个尚未写完的东西</summary>
+
 - **GitHub 仓库造假专项** —— 拿到一个仓库的全部 fork 用户，逐个做真人鉴定：注册时间、默认头像、关注比例、fork 时间戳的聚集度。给「这个仓库里有多少真人」一个可复现的答案。
 - **多开管理器**（重构中）—— Claude Code / Codex 会话多开，每个会话独立 token 与 API 地址，外加项目状态管理。目前的形态太丑、逻辑不顺，super agent 框架兴起后正在重写定位。开源时间待定。
 - **验证码无代码版** —— 代码仓库关闭后的赎罪之作：只有初始样本、最终求解结果与求解思路。一行 py、一行 js 都没有。知识留下来，武器不发放。
 
----
+</details>
+
+<div align="center">
+  <img src="assets/divider.svg" alt="" width="100%">
+</div>
 
 <div align="center">
   <picture>
