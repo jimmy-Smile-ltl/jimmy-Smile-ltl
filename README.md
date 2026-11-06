@@ -48,11 +48,15 @@
 | [fingerprint](https://github.com/jimmy-Smile-ltl/fingerprint) | 浏览器指纹采集与 Node.js 补环境工具集：六大指纹维度全链路复现 |
 | [eg_js_reverse](https://github.com/jimmy-Smile-ltl/eg_js_reverse) | JS 逆向最小化复现集：加密入口 → 算法还原 → 可运行验证 |
 
-### 前端特效
+### 一件旧物
 
-| 项目 | 简介 |
-| --- | --- |
-| [show-your-heart](https://github.com/jimmy-Smile-ltl/show-your-heart) | JS Canvas 网页特效组合 |
+> [show-your-heart](https://github.com/jimmy-Smile-ltl/show-your-heart) · 线上地址：<https://show-your-heart.vercel.app/>
+
+2022 年七夕（8 月 4 日）动工的产物。说是项目，不如说是一场挪用：把 GitHub 上散落各处的开源表白项目做了一次有机整合，本质上是用 Canvas 拼出的一段「视频」——星空借自某款浏览器插件，配乐从《卡农》排到《告白の夜》。
+
+自我批评环节：技术上乏善可陈，代码稚拙，中二浓度过高，处处是当年手忙脚乱的痕迹。它称不上工程，勉强列在这里，权当反面教材。
+
+但它是那两年唯一浇筑过灵魂的代码。写爬虫是为了效率，写它，是为了别的什么——至于「别的什么」是什么，打开页面，它会自己说。
 
 ---
 
