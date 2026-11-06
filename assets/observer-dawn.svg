@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 480" width="1600" height="480" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 260" width="1600" height="260" role="img">
   <title>和每天晚上一样，试图征服世界</title>
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0.0" stop-color="#1c2650"/><stop offset="0.3333333333333333" stop-color="#4e4470"/><stop offset="0.6666666666666666" stop-color="#a86a68"/><stop offset="1.0" stop-color="#ef9e66"/></linearGradient>
     <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a3c58"/><stop offset="1" stop-color="#232c47"/></linearGradient>
     <radialGradient id="vignette" cx="0.5" cy="0.45" r="0.8">
       <stop offset="0.62" stop-color="#000" stop-opacity="0"/>
-      <stop offset="1" stop-color="#000" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.25"/>
     </radialGradient>
     <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
       <stop offset="0" stop-color="#f0a05c" stop-opacity="0.85"/>
@@ -19,88 +19,86 @@
     </radialGradient>
   </defs>
 
-  <rect width="1600" height="480" fill="url(#sky)"/>
-  <polygon points="648.3,32.5 649.8,36.3 653.9,36.6 650.8,39.2 651.7,43.2 648.3,41.1 644.8,43.2 645.8,39.2 642.7,36.6 646.7,36.3" fill="#ffe9b0" opacity="0.45"/>
-  <polygon points="1210.6,38.8 1212.6,43.5 1217.6,43.9 1213.8,47.2 1215.0,52.2 1210.6,49.5 1206.3,52.2 1207.4,47.2 1203.6,43.9 1208.7,43.5" fill="#ffe9b0" opacity="0.56"/>
-  <path d="M861.0,145.6 Q861.0,150.6 866.1,150.6 Q861.0,150.6 861.0,155.7 Q861.0,150.6 856.0,150.6 Q861.0,150.6 861.0,145.6 Z" fill="#fff3c9" opacity="0.6191012267746587"/>
-  <path d="M978.9,36.0 Q978.9,40.9 983.8,40.9 Q978.9,40.9 978.9,45.9 Q978.9,40.9 973.9,40.9 Q978.9,40.9 978.9,36.0 Z" fill="#fff3c9" opacity="0.8460996235428293"/>
-  <path d="M623.2,106.1 Q623.2,111.7 628.9,111.7 Q623.2,111.7 623.2,117.4 Q623.2,111.7 617.6,111.7 Q623.2,111.7 623.2,106.1 Z" fill="#fff3c9" opacity="0.4337520938650951"/>
-  <path d="M1352.9,54.2 Q1352.9,59.5 1358.3,59.5 Q1352.9,59.5 1352.9,64.8 Q1352.9,59.5 1347.6,59.5 Q1352.9,59.5 1352.9,54.2 Z" fill="#fff3c9" opacity="0.870772486881718"/>
-  <path d="M1233.7,74.6 Q1233.7,79.3 1238.3,79.3 Q1233.7,79.3 1233.7,84.0 Q1233.7,79.3 1229.0,79.3 Q1233.7,79.3 1233.7,74.6 Z" fill="#fff3c9" opacity="0.5714425014217072"/>
-  <path d="M22.0,33.6 Q22.0,39.0 27.4,39.0 Q22.0,39.0 22.0,44.3 Q22.0,39.0 16.7,39.0 Q22.0,39.0 22.0,33.6 Z" fill="#fff3c9" opacity="0.8942634829373981"/>
-  <circle cx="350" cy="80" r="18" fill="#ffcf9e" opacity="0.14"/><circle cx="366" cy="85" r="14" fill="#ffcf9e" opacity="0.14"/><circle cx="381" cy="84" r="16" fill="#ffcf9e" opacity="0.14"/>
-  <circle cx="1150" cy="120" r="20" fill="#ffcf9e" opacity="0.14"/><circle cx="1168" cy="125" r="15" fill="#ffcf9e" opacity="0.14"/><circle cx="1184" cy="124" r="17" fill="#ffcf9e" opacity="0.14"/>
+  <rect width="1600" height="260" fill="url(#sky)"/>
+  <polygon points="648.3,25.7 649.5,28.7 652.8,28.9 650.3,31.1 651.1,34.2 648.3,32.5 645.5,34.2 646.3,31.1 643.8,28.9 647.0,28.7" fill="#ffe9b0" opacity="0.45"/>
+  <polygon points="1210.6,30.1 1212.2,33.9 1216.4,34.3 1213.2,37.0 1214.2,41.0 1210.6,38.9 1207.0,41.0 1208.0,37.0 1204.8,34.3 1209.0,33.9" fill="#ffe9b0" opacity="0.56"/>
+  <path d="M861.0,109.0 Q861.0,113.1 865.1,113.1 Q861.0,113.1 861.0,117.2 Q861.0,113.1 857.0,113.1 Q861.0,113.1 861.0,109.0 Z" fill="#fff3c9" opacity="0.6191012267746587"/>
+  <path d="M978.9,28.3 Q978.9,32.3 982.8,32.3 Q978.9,32.3 978.9,36.2 Q978.9,32.3 974.9,32.3 Q978.9,32.3 978.9,28.3 Z" fill="#fff3c9" opacity="0.8460996235428293"/>
+  <path d="M623.2,79.8 Q623.2,84.4 627.9,84.4 Q623.2,84.4 623.2,89.1 Q623.2,84.4 618.6,84.4 Q623.2,84.4 623.2,79.8 Z" fill="#fff3c9" opacity="0.4337520938650951"/>
+  <path d="M1352.9,41.6 Q1352.9,45.9 1357.3,45.9 Q1352.9,45.9 1352.9,50.3 Q1352.9,45.9 1348.6,45.9 Q1352.9,45.9 1352.9,41.6 Z" fill="#fff3c9" opacity="0.870772486881718"/>
+  <circle cx="330" cy="60" r="14" fill="#ffcf9e" opacity="0.14"/><circle cx="343" cy="64" r="11" fill="#ffcf9e" opacity="0.14"/><circle cx="354" cy="63" r="13" fill="#ffcf9e" opacity="0.14"/>
+  <circle cx="1130" cy="80" r="16" fill="#ffcf9e" opacity="0.14"/><circle cx="1144" cy="84" r="12" fill="#ffcf9e" opacity="0.14"/><circle cx="1157" cy="83" r="14" fill="#ffcf9e" opacity="0.14"/>
 
-  <rect y="330" width="1600" height="150" fill="url(#ground)"/>
-  <rect y="330" width="1600" height="2" fill="#4a5f92" opacity="0.7"/>
+  <rect y="180" width="1600" height="80" fill="url(#ground)"/>
+  <rect y="180" width="1600" height="2" fill="#4a5f92" opacity="0.7"/>
 
-  <circle cx="800" cy="330" r="150" fill="url(#sunGlow)"/>
-  <ellipse cx="800" cy="344" rx="95" ry="9" fill="#ffd98a" opacity="0.20"/>
-  <ellipse cx="800" cy="350" rx="45" ry="6" fill="#ffd98a" opacity="0.15"/>
-  <line x1="758" y1="306" x2="743" y2="297" stroke="#ffd98a" stroke-width="5.0" stroke-linecap="round"/><line x1="776" y1="288" x2="767" y2="273" stroke="#ffd98a" stroke-width="5.0" stroke-linecap="round"/><line x1="800" y1="282" x2="800" y2="264" stroke="#ffd98a" stroke-width="5.0" stroke-linecap="round"/><line x1="824" y1="288" x2="833" y2="273" stroke="#ffd98a" stroke-width="5.0" stroke-linecap="round"/><line x1="842" y1="306" x2="857" y2="297" stroke="#ffd98a" stroke-width="5.0" stroke-linecap="round"/><line x1="848" y1="330" x2="866" y2="330" stroke="#ffd98a" stroke-width="5.0" stroke-linecap="round"/>
-  <circle cx="800" cy="330" r="40" fill="#ffd98a" stroke="#0f1526" stroke-width="3.0"/>
-  <circle cx="786.0" cy="318.0" r="3.5" fill="#0f1526"/>
-  <circle cx="814.0" cy="318.0" r="3.5" fill="#0f1526"/>
-  <path d="M788.0,332.0 q12.0,9.0 24.0,0" fill="none" stroke="#0f1526" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="800" cy="180" r="110" fill="url(#sunGlow)"/>
+  <ellipse cx="800" cy="190" rx="80" ry="6" fill="#ffd98a" opacity="0.20"/>
+  <ellipse cx="800" cy="196" rx="40" ry="5" fill="#ffd98a" opacity="0.15"/>
+  <line x1="770" y1="163" x2="761" y2="158" stroke="#ffd98a" stroke-width="3.0" stroke-linecap="round"/><line x1="783" y1="150" x2="778" y2="141" stroke="#ffd98a" stroke-width="3.0" stroke-linecap="round"/><line x1="800" y1="146" x2="800" y2="135" stroke="#ffd98a" stroke-width="3.0" stroke-linecap="round"/><line x1="817" y1="150" x2="822" y2="141" stroke="#ffd98a" stroke-width="3.0" stroke-linecap="round"/><line x1="830" y1="163" x2="839" y2="158" stroke="#ffd98a" stroke-width="3.0" stroke-linecap="round"/><line x1="834" y1="180" x2="845" y2="180" stroke="#ffd98a" stroke-width="3.0" stroke-linecap="round"/>
+  <circle cx="800" cy="180" r="30" fill="#ffd98a" stroke="#0f1526" stroke-width="1.875"/>
+  <circle cx="789.5" cy="171.0" r="2.625" fill="#0f1526"/>
+  <circle cx="810.5" cy="171.0" r="2.625" fill="#0f1526"/>
+  <path d="M791.0,181.5 q9.0,6.75 18.0,0" fill="none" stroke="#0f1526" stroke-width="1.875" stroke-linecap="round"/>
 
-  <ellipse cx="330" cy="336" rx="100" ry="8" fill="#f0a05c" opacity="0.12"/>
-  <ellipse cx="620" cy="334" rx="62" ry="7" fill="#000" opacity="0.30"/>
-  <path d="M470,330 L466.0,320.0 M470,330 L471.0,316.0 M470,330 L475.0,321.0" fill="none" stroke="#8fbe7a" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M760,330 L756.0,320.0 M760,330 L761.0,316.0 M760,330 L765.0,321.0" fill="none" stroke="#8fbe7a" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="330" cy="184" rx="85" ry="6" fill="#f0a05c" opacity="0.12"/>
+  <ellipse cx="600" cy="182" rx="50" ry="5" fill="#000" opacity="0.30"/>
+  <path d="M460,180 L456.5,171 M460,180 L461,168 M460,180 L464.5,172" fill="none" stroke="#8fbe7a" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M720,180 L716.5,171 M720,180 L721,168 M720,180 L724.5,172" fill="none" stroke="#8fbe7a" stroke-width="2.2" stroke-linecap="round"/>
 
-  <path d="M309,150 A62,62 0 0 0 187,150" fill="none" stroke="#7fd8d0" stroke-width="2.2" stroke-linecap="round" opacity="0.13"/>
-  <circle cx="309" cy="150" r="1.7" fill="#7fd8d0" opacity="0.13"/>
-  <circle cx="187" cy="150" r="1.7" fill="#7fd8d0" opacity="0.13"/>
-  <path d="M351,150 A104,104 0 0 0 145,150" fill="none" stroke="#7fd8d0" stroke-width="2.2" stroke-linecap="round" opacity="0.09"/>
-  <circle cx="351" cy="150" r="1.7" fill="#7fd8d0" opacity="0.09"/>
-  <circle cx="145" cy="150" r="1.7" fill="#7fd8d0" opacity="0.09"/>
-  <path d="M395,150 A148,148 0 0 0 101,150" fill="none" stroke="#7fd8d0" stroke-width="2.2" stroke-linecap="round" opacity="0.06"/>
-  <circle cx="395" cy="150" r="1.7" fill="#7fd8d0" opacity="0.06"/>
-  <circle cx="101" cy="150" r="1.7" fill="#7fd8d0" opacity="0.06"/>
-  <path d="M196.0,74.0 Q196.0,80.0 202.0,80.0 Q196.0,80.0 196.0,86.0 Q196.0,80.0 190.0,80.0 Q196.0,80.0 196.0,74.0 Z" fill="#7fd8d0" opacity="0.3"/>
+  <path d="M277,95 A30,30 0 0 0 219,95" fill="none" stroke="#7fd8d0" stroke-width="2.0" stroke-linecap="round" opacity="0.13"/>
+  <circle cx="277" cy="95" r="1.5" fill="#7fd8d0" opacity="0.13"/>
+  <circle cx="219" cy="95" r="1.5" fill="#7fd8d0" opacity="0.13"/>
+  <path d="M293,95 A46,46 0 0 0 203,95" fill="none" stroke="#7fd8d0" stroke-width="2.0" stroke-linecap="round" opacity="0.09"/>
+  <circle cx="293" cy="95" r="1.5" fill="#7fd8d0" opacity="0.09"/>
+  <circle cx="203" cy="95" r="1.5" fill="#7fd8d0" opacity="0.09"/>
+  <path d="M309,95 A62,62 0 0 0 187,95" fill="none" stroke="#7fd8d0" stroke-width="2.0" stroke-linecap="round" opacity="0.06"/>
+  <circle cx="309" cy="95" r="1.5" fill="#7fd8d0" opacity="0.06"/>
+  <circle cx="187" cy="95" r="1.5" fill="#7fd8d0" opacity="0.06"/>
+  <path d="M196.0,54.0 Q196.0,60.0 202.0,60.0 Q196.0,60.0 196.0,66.0 Q196.0,60.0 190.0,60.0 Q196.0,60.0 196.0,54.0 Z" fill="#7fd8d0" opacity="0.3"/>
 
-  <line x1="248" y1="150" x2="330" y2="250" stroke="#0f1526" stroke-width="3.0"/>
-  <circle cx="248" cy="150" r="18.0" fill="url(#glow)"/>
-  <circle cx="248" cy="150" r="3.5" fill="#ffd98a"/>
-  <polygon points="248.0,129.0 250.4,134.7 256.6,135.2 251.9,139.3 253.3,145.3 248.0,142.1 242.7,145.3 244.1,139.3 239.4,135.2 245.6,134.7" fill="#ffe9b0" opacity="0.9"/>
-  <circle cx="290.0" cy="250" r="16.0" fill="url(#glow)"/>
-  <rect x="266" y="250" width="144" height="76" rx="20.0" fill="#42598c" stroke="#0f1526" stroke-width="3.0"/>
-  <rect x="282.0" y="234.0" width="12.0" height="20.0" rx="6.0" fill="#ffb066" stroke="#0f1526" stroke-width="2.5"/>
-  <circle cx="302.0" cy="278.0" r="5.0" fill="#0f1526"/>
-  <circle cx="352.0" cy="278.0" r="5.0" fill="#0f1526"/>
-  <circle cx="327.0" cy="292.0" r="11.0" fill="#ffd98a" stroke="#0f1526" stroke-width="2.5"/>
-  <line x1="327.0" y1="292.0" x2="334.0" y2="284.0" stroke="#0f1526" stroke-width="1.5"/>
-  <path d="M314.0,312.0 q13.0,9.0 26.0,0" fill="none" stroke="#0f1526" stroke-width="3.0" stroke-linecap="round"/>
-  <line x1="378.0" y1="270.0" x2="378.0" y2="310.0" stroke="#0f1526" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
-  <line x1="384.0" y1="270.0" x2="384.0" y2="310.0" stroke="#0f1526" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
-  <line x1="390.0" y1="270.0" x2="390.0" y2="310.0" stroke="#0f1526" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
-  <rect x="274.0" y="326" width="10.0" height="12.0" rx="4.0" fill="#0f1526"/>
-  <rect x="392.0" y="326" width="10.0" height="12.0" rx="4.0" fill="#0f1526"/>
+  <line x1="248" y1="95" x2="330" y2="150" stroke="#0f1526" stroke-width="2.5"/>
+  <circle cx="248" cy="95" r="14" fill="url(#glow)"/>
+  <circle cx="248" cy="95" r="3" fill="#ffd98a"/>
+  <polygon points="248.0,76.0 249.9,80.5 254.7,80.8 251.0,84.0 252.1,88.7 248.0,86.2 243.9,88.7 245.0,84.0 241.3,80.8 246.1,80.5" fill="#ffe9b0" opacity="0.9"/>
+  <circle cx="284" cy="140" r="13" fill="url(#glow)"/>
+  <rect x="266" y="140" width="128" height="60" rx="16" fill="#42598c" stroke="#0f1526" stroke-width="2.5"/>
+  <rect x="279" y="127" width="10" height="17" rx="5" fill="#ffb066" stroke="#0f1526" stroke-width="2"/>
+  <circle cx="295" cy="162" r="4" fill="#0f1526"/>
+  <circle cx="334" cy="162" r="4" fill="#0f1526"/>
+  <circle cx="314" cy="175" r="9" fill="#ffd98a" stroke="#0f1526" stroke-width="2"/>
+  <line x1="314" y1="175" x2="320" y2="168" stroke="#0f1526" stroke-width="1.3"/>
+  <path d="M304,190 q10,7 20,0" fill="none" stroke="#0f1526" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="355" y1="156" x2="355" y2="190" stroke="#0f1526" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <line x1="360" y1="156" x2="360" y2="190" stroke="#0f1526" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <line x1="365" y1="156" x2="365" y2="190" stroke="#0f1526" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <rect x="274" y="200" width="8" height="9" rx="3" fill="#0f1526"/>
+  <rect x="380" y="200" width="8" height="9" rx="3" fill="#0f1526"/>
 
-  <circle cx="619" cy="196" r="30" fill="#ffd9a8" stroke="#0f1526" stroke-width="3.0"/>
-  <path d="M589,196 A30,30 0 0 1 649,196 Z" fill="#20283f"/>
-  <path d="M619,166 q4.0,-12.0 18.0,-10.0" fill="none" stroke="#20283f" stroke-width="3.5" stroke-linecap="round"/>
-  <circle cx="587.0" cy="200.0" r="6.5" fill="#ffd9a8" stroke="#0f1526" stroke-width="2.5"/>
-  <path d="M603.0,200.0 q6.0,6.0 12.0,0" fill="none" stroke="#0f1526" stroke-width="3.0" stroke-linecap="round"/>
-  <path d="M625.0,200.0 q6.0,6.0 12.0,0" fill="none" stroke="#0f1526" stroke-width="3.0" stroke-linecap="round"/>
-  <circle cx="602.0" cy="213.0" r="5.0" fill="#ff8f8f" opacity="0.55"/>
-  <circle cx="636.0" cy="213.0" r="5.0" fill="#ff8f8f" opacity="0.55"/>
-  <path d="M613.0,218.0 q6.0,5.0 12.0,0" fill="none" stroke="#0f1526" stroke-width="2.5" stroke-linecap="round"/>
-  <rect x="611.0" y="224.0" width="16.0" height="14.0" fill="#ffd9a8"/>
-  <path d="M586.0,270.0 L607.0,232.0 L631.0,232.0 L652.0,270.0 Z" fill="#4f6bb5" stroke="#0f1526" stroke-width="3.0" stroke-linejoin="round"/>
-  <path d="M591.0,236.0 L575.0,276.0" fill="none" stroke="#4f6bb5" stroke-width="13.0" stroke-linecap="round"/>
-  <path d="M645.0,234.0 L663.0,258.0 L649.0,170.0" fill="none" stroke="#4f6bb5" stroke-width="13.0" stroke-linecap="round"/>
-  <circle cx="647.0" cy="168.0" r="8.0" fill="#ffd9a8" stroke="#0f1526" stroke-width="2.5"/>
-  <rect x="599.0" y="270.0" width="14.0" height="60" rx="7.0" fill="#20283f" stroke="#0f1526" stroke-width="3.0"/>
-  <rect x="625.0" y="270.0" width="14.0" height="60" rx="7.0" fill="#20283f" stroke="#0f1526" stroke-width="3.0"/>
+  <circle cx="600" cy="95" r="26" fill="#ffd9a8" stroke="#0f1526" stroke-width="2.5"/>
+  <path d="M574,95 A26,26 0 0 1 626,95 Z" fill="#20283f"/>
+  <path d="M600,69 q3.5,-10 15.7,-8.7" fill="none" stroke="#20283f" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="572" cy="99" r="5.7" fill="#ffd9a8" stroke="#0f1526" stroke-width="2"/>
+  <path d="M587,99 q5,5 10,0" fill="none" stroke="#0f1526" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M608,99 q5,5 10,0" fill="none" stroke="#0f1526" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="585" cy="113" r="4.4" fill="#ff8f8f" opacity="0.55"/>
+  <circle cx="615" cy="113" r="4.4" fill="#ff8f8f" opacity="0.55"/>
+  <path d="M594,117 q5,4 10,0" fill="none" stroke="#0f1526" stroke-width="2" stroke-linecap="round"/>
+  <rect x="593" y="118" width="14" height="12" fill="#ffd9a8"/>
+  <path d="M576,168 L596,130 L624,130 L644,168 Z" fill="#4f6bb5" stroke="#0f1526" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M582,142 L566,172" fill="none" stroke="#4f6bb5" stroke-width="11" stroke-linecap="round"/>
+  <path d="M630,140 L646,162 L634,92" fill="none" stroke="#4f6bb5" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="632" cy="90" r="7" fill="#ffd9a8" stroke="#0f1526" stroke-width="2"/>
+  <rect x="582" y="168" width="12" height="12" rx="6" fill="#20283f" stroke="#0f1526" stroke-width="2.5"/>
+  <rect x="606" y="168" width="12" height="12" rx="6" fill="#20283f" stroke="#0f1526" stroke-width="2.5"/>
 
   <!-- typography: the closing line -->
-  <line x1="870" y1="140" x2="870" y2="390" stroke="#e0b47f" stroke-width="1" opacity="0.35"/>
-  <rect x="900" y="150" width="70" height="1.5" fill="#e0b47f" opacity="0.55"/>
-  <text x="900" y="205" font-family="'Songti SC','Noto Serif CJK SC','Source Han Serif SC','STSong','SimSun',Georgia,serif" font-size="38" letter-spacing="6" fill="#c3b6a8">和每天晚上一样</text>
-  <text x="900" y="265" font-family="'Songti SC','Noto Serif CJK SC','Source Han Serif SC','STSong','SimSun',Georgia,serif" font-size="52" letter-spacing="8" fill="#ece7dc">试图<tspan fill="#e0b47f">征服世界</tspan></text>
-  <text x="900" y="312" font-family="Georgia,'Times New Roman',serif" font-size="15" letter-spacing="5" fill="#9a8f7e">THE SAME THING WE DO EVERY NIGHT</text>
-  <rect x="1440" y="340" width="46" height="46" rx="7" fill="#c2453d"/><rect x="1441.5" y="341.5" width="43" height="43" rx="6" fill="none" stroke="#a83630" stroke-width="1" opacity="0.7"/><text x="1463" y="358" text-anchor="middle" font-size="18" fill="#f5efe6" font-family="'Songti SC','Noto Serif CJK SC','Source Han Serif SC','STSong','SimSun',Georgia,serif">夜</text><text x="1463" y="377" text-anchor="middle" font-size="18" fill="#f5efe6" font-family="'Songti SC','Noto Serif CJK SC','Source Han Serif SC','STSong','SimSun',Georgia,serif">夜</text>
+  <line x1="870" y1="60" x2="870" y2="210" stroke="#e0b47f" stroke-width="1" opacity="0.35"/>
+  <rect x="900" y="70" width="60" height="1.5" fill="#e0b47f" opacity="0.55"/>
+  <text x="900" y="108" font-family="'Songti SC','Noto Serif CJK SC','Source Han Serif SC','STSong','SimSun',Georgia,serif" font-size="30" letter-spacing="6" fill="#c3b6a8">和每天晚上一样</text>
+  <text x="900" y="150" font-family="'Songti SC','Noto Serif CJK SC','Source Han Serif SC','STSong','SimSun',Georgia,serif" font-size="38" letter-spacing="8" fill="#ece7dc">试图<tspan fill="#e0b47f">征服世界</tspan></text>
+  <text x="900" y="184" font-family="Georgia,'Times New Roman',serif" font-size="13" letter-spacing="4" fill="#9a8f7e">THE SAME THING WE DO EVERY NIGHT</text>
+  <rect x="1400" y="205" width="40" height="40" rx="6" fill="#c2453d"/><rect x="1401.5" y="206.5" width="37" height="37" rx="5" fill="none" stroke="#a83630" stroke-width="1" opacity="0.7"/><text x="1420" y="221" text-anchor="middle" font-size="16" fill="#f5efe6" font-family="'Songti SC','Noto Serif CJK SC','Source Han Serif SC','STSong','SimSun',Georgia,serif">夜</text><text x="1420" y="237" text-anchor="middle" font-size="16" fill="#f5efe6" font-family="'Songti SC','Noto Serif CJK SC','Source Han Serif SC','STSong','SimSun',Georgia,serif">夜</text>
 
-  <rect width="1600" height="480" fill="url(#vignette)"/>
+  <rect width="1600" height="260" fill="url(#vignette)"/>
 </svg>
