@@ -7,7 +7,10 @@
 
 &nbsp;
 
-## 试图征服世界
+<div align="center">
+<h2>试图征服世界</h2>
+<i>有些事业注定不会成功，但那正是它每晚重启的理由。</i>
+</div>
 
 > *"Gee, Brain, what do you want to do tonight?"*
 > *"The same thing we do every night, Pinky — try to take over the world!"*
@@ -20,6 +23,10 @@
 深夜十一点，办公室亮着最后一盏灯。有人问：今晚加班做什么？
 
 > 和每天晚上一样，试图征服世界。
+
+<div align="center">
+<i>推石头的人不期待山顶。应当设想，大脑鼠是幸福的。</i>
+</div>
 
 ---
 
