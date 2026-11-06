@@ -5,13 +5,9 @@
   </picture>
 </div>
 
-&nbsp;
-
 <div align="center">
-<sub>目次 · <a href="#试图征服世界">试图征服世界</a> · <a href="#征服之路上的坐标">坐标</a> · <a href="#一件旧物">旧物</a> · <a href="#筹备中的坐标">筹备</a></sub>
+<p>目次 · <a href="#试图征服世界">试图征服世界</a> · <a href="#征服之路上的坐标">坐标</a> · <a href="#一件旧物">旧物</a> · <a href="#筹备中的坐标">筹备</a></p>
 </div>
-
-&nbsp;
 
 <div align="center">
 <h2>试图征服世界</h2>
