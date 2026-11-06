@@ -102,10 +102,10 @@
   <ellipse cx="618" cy="334" rx="60" ry="6" fill="#000" opacity="0.45"/>
 
   <!-- signal arcs from antenna tip (248,150) -->
-  <path d="M310,150 A62,62 0 0 1 186,150" fill="none" stroke="#7fd8d0" stroke-width="1.6" opacity="0.25"/>
-  <path d="M352,150 A104,104 0 0 1 144,150" fill="none" stroke="#7fd8d0" stroke-width="1.6" opacity="0.16"/>
-  <path d="M396,150 A148,148 0 0 1 100,150" fill="none" stroke="#7fd8d0" stroke-width="1.6" opacity="0.10"/>
-  <circle cx="158" cy="98" r="2.2" fill="#7fd8d0" opacity="0.6"/>
+  <path d="M308,150 A62,62 0 0 0 188,150" fill="none" stroke="#7fd8d0" stroke-width="1.8" opacity="0.30"/>
+  <path d="M350,150 A104,104 0 0 0 146,150" fill="none" stroke="#7fd8d0" stroke-width="1.8" opacity="0.20"/>
+  <path d="M394,150 A148,148 0 0 0 102,150" fill="none" stroke="#7fd8d0" stroke-width="1.8" opacity="0.13"/>
+  <circle cx="196" cy="80" r="2.2" fill="#7fd8d0" opacity="0.6"/>
 
   <!-- antenna -->
   <line x1="248" y1="150" x2="332" y2="262" stroke="#49536b" stroke-width="2.5"/>

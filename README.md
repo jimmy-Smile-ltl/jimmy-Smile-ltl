@@ -1,5 +1,8 @@
 <div align="center">
-  <img src="assets/observer.svg" alt="观测者，旧时代的余孽，在聆听时代的声音" width="100%">
+  <picture>
+    <source media="(min-width: 641px)" srcset="assets/observer.svg">
+    <img src="assets/observer-tall.svg" alt="观测者，旧时代的余孽，在聆听时代的声音" width="100%">
+  </picture>
 </div>
 
 &nbsp;
