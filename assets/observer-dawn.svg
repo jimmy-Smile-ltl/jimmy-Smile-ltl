@@ -98,7 +98,6 @@
   <text x="900" y="108" font-family="'Songti SC','Noto Serif CJK SC','Source Han Serif SC','STSong','SimSun',Georgia,serif" font-size="30" letter-spacing="6" fill="#c3b6a8">和每天晚上一样</text>
   <text x="900" y="150" font-family="'Songti SC','Noto Serif CJK SC','Source Han Serif SC','STSong','SimSun',Georgia,serif" font-size="38" letter-spacing="8" fill="#ece7dc">试图<tspan fill="#e0b47f">征服世界</tspan></text>
   <text x="900" y="184" font-family="Georgia,'Times New Roman',serif" font-size="13" letter-spacing="4" fill="#9a8f7e">THE SAME THING WE DO EVERY NIGHT</text>
-  <rect x="1400" y="205" width="40" height="40" rx="6" fill="#c2453d"/><rect x="1401.5" y="206.5" width="37" height="37" rx="5" fill="none" stroke="#a83630" stroke-width="1" opacity="0.7"/><text x="1420" y="221" text-anchor="middle" font-size="16" fill="#f5efe6" font-family="'Songti SC','Noto Serif CJK SC','Source Han Serif SC','STSong','SimSun',Georgia,serif">夜</text><text x="1420" y="237" text-anchor="middle" font-size="16" fill="#f5efe6" font-family="'Songti SC','Noto Serif CJK SC','Source Han Serif SC','STSong','SimSun',Georgia,serif">夜</text>
 
   <rect width="1600" height="260" fill="url(#vignette)"/>
 </svg>
