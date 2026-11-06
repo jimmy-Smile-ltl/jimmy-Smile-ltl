@@ -85,5 +85,8 @@
 ---
 
 <div align="center">
-  <i>—— 和每天晚上一样，试图征服世界。</i>
+  <picture>
+    <source media="(min-width: 641px)" srcset="assets/observer-dawn.svg">
+    <img src="assets/observer-dawn-tall.svg" alt="和每天晚上一样，试图征服世界" width="100%">
+  </picture>
 </div>

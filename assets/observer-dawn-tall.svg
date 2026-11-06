@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" width="800" height="620" role="img">
+  <title>和每天晚上一样，试图征服世界</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0.0" stop-color="#10162c"/><stop offset="0.3333333333333333" stop-color="#33325c"/><stop offset="0.6666666666666666" stop-color="#7a4a5e"/><stop offset="1.0" stop-color="#b06a4a"/></linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b2d3d"/><stop offset="1" stop-color="#131a2c"/></linearGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.45" r="0.8">
+      <stop offset="0.62" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.3"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f0a05c" stop-opacity="0.85"/>
+      <stop offset="0.45" stop-color="#f0a05c" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#f0a05c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sunGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f5b57a" stop-opacity="0.55"/>
+      <stop offset="0.6" stop-color="#f5b57a" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#f5b57a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="620" fill="url(#sky)"/>
+  <circle cx="456.3" cy="142.0" r="1.15" fill="#e8e6df" opacity="0.14"/>
+  <circle cx="456.3" cy="142.0" r="3.5" fill="#e8e6df" opacity="0.02"/>
+  <circle cx="521.5" cy="196.9" r="1.23" fill="#e8e6df" opacity="0.13"/>
+  <circle cx="521.4" cy="138.8" r="0.90" fill="#e8e6df" opacity="0.24"/>
+  <circle cx="422.6" cy="102.4" r="1.25" fill="#e8e6df" opacity="0.20"/>
+  <circle cx="241.0" cy="73.6" r="0.90" fill="#e8e6df" opacity="0.11"/>
+  <circle cx="486.1" cy="164.0" r="0.84" fill="#e8e6df" opacity="0.23"/>
+  <circle cx="742.4" cy="125.8" r="1.05" fill="#e8e6df" opacity="0.12"/>
+  <circle cx="44.8" cy="215.8" r="0.73" fill="#e8e6df" opacity="0.13"/>
+
+  <circle cx="700" cy="70" r="34" fill="#e8e6df" opacity="0.05"/>
+
+  <rect y="430" width="800" height="190" fill="url(#ground)"/>
+  <rect y="430" width="800" height="2" fill="#3a4a6e" opacity="0.7"/>
+
+  <circle cx="400" cy="430" r="110" fill="url(#sunGlow)"/>
+  <ellipse cx="400" cy="440" rx="80" ry="8" fill="#f5b57a" opacity="0.18"/>
+  <circle cx="400" cy="430" r="34" fill="#f5b57a"/>
+  <circle cx="400" cy="427" r="29" fill="#f8c894"/>
+
+  <ellipse cx="160" cy="438" rx="70" ry="6" fill="#f0a05c" opacity="0.10"/>
+  <ellipse cx="620" cy="438" rx="46" ry="5" fill="#000" opacity="0.35"/>
+
+  <path d="M151,250 A44,44 0 0 0 65,250" fill="none" stroke="#7fd8d0" stroke-width="2.2" opacity="0.14"/>
+  <path d="M167,250 A60,60 0 0 0 49,250" fill="none" stroke="#7fd8d0" stroke-width="2.2" opacity="0.09"/>
+  <path d="M183,250 A76,76 0 0 0 33,250" fill="none" stroke="#7fd8d0" stroke-width="2.2" opacity="0.06"/>
+  <circle cx="78" cy="209" r="1.8" fill="#7fd8d0" opacity="0.25"/>
+
+  <line x1="108" y1="250" x2="150" y2="372" stroke="#49536b" stroke-width="2"/>
+  <circle cx="108" cy="250" r="12" fill="url(#glow)"/>
+  <circle cx="108" cy="250" r="3" fill="#f0a05c"/>
+  <rect x="110" y="372" width="100" height="52" rx="10" fill="#1e2838" stroke="#4a5a78" stroke-width="1.5"/>
+  <rect x="134" y="352" width="8" height="20" rx="4" fill="#e8873f" opacity="0.9"/>
+  <circle cx="138" cy="372" r="6" fill="#ffc27a"/>
+  <circle cx="138" cy="376" r="15" fill="url(#glow)"/>
+  <circle cx="150" cy="398" r="13" fill="#0e1420" stroke="#4a5a78" stroke-width="1.5"/>
+  <line x1="150" y1="398" x2="157" y2="389" stroke="#e0b47f" stroke-width="1.3"/>
+  <line x1="180" y1="384" x2="180" y2="414" stroke="#3a4a68" stroke-width="2"/>
+  <line x1="185" y1="384" x2="185" y2="414" stroke="#3a4a68" stroke-width="2"/>
+  <line x1="190" y1="384" x2="190" y2="414" stroke="#3a4a68" stroke-width="2"/>
+  <rect x="118" y="424" width="7" height="9" rx="2" fill="#4a5a78"/>
+  <rect x="200" y="424" width="7" height="9" rx="2" fill="#4a5a78"/>
+
+  <circle cx="620" cy="300" r="19" fill="#05070d"/>
+  <path d="M601,300 A19,19 0 0 0 607,283" fill="none" stroke="#f0b47f" stroke-width="2.2" opacity="0.5" stroke-linecap="round"/>
+  <rect x="613" y="318" width="14" height="8" fill="#05070d"/>
+  <path d="M604,326 C598,345 596,370 597,398 L645,398 C646,370 644,345 638,326 Z" fill="#05070d"/>
+  <path d="M604,326 C598,345 596,370 597,398" fill="none" stroke="#f0b47f" stroke-width="1.8" opacity="0.28"/>
+  <path d="M603,398 L599,434 L613,434 L616,398 Z" fill="#05070d"/>
+  <path d="M618,398 L622,434 L636,434 L633,398 Z" fill="#05070d"/>
+  <path d="M634,336 L660,360 L648,318" fill="none" stroke="#05070d" stroke-width="13" stroke-linecap="round"/>
+
+  <!-- typography -->
+  <rect x="345" y="96" width="110" height="1.5" fill="#e0b47f" opacity="0.55"/>
+  <text x="400" y="170" text-anchor="middle" font-family="'Songti SC','Noto Serif CJK SC','Source Han Serif SC','STSong','SimSun',Georgia,serif" font-size="30" letter-spacing="4" fill="#c3b6a8">和每天晚上一样</text>
+  <text x="400" y="224" text-anchor="middle" font-family="'Songti SC','Noto Serif CJK SC','Source Han Serif SC','STSong','SimSun',Georgia,serif" font-size="42" letter-spacing="5" fill="#ece7dc">试图<tspan fill="#e0b47f">征服世界</tspan></text>
+  <text x="400" y="266" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="13" letter-spacing="3" fill="#9a8f7e">THE SAME THING WE DO EVERY NIGHT</text>
+  <rect x="555" y="292" width="38" height="38" rx="6" fill="#c2453d"/><rect x="556.5" y="293.5" width="35" height="35" rx="5" fill="none" stroke="#a83630" stroke-width="1" opacity="0.7"/><text x="574" y="307" text-anchor="middle" font-size="15" fill="#f5efe6" font-family="'Songti SC','Noto Serif CJK SC','Source Han Serif SC','STSong','SimSun',Georgia,serif">夜</text><text x="574" y="322" text-anchor="middle" font-size="15" fill="#f5efe6" font-family="'Songti SC','Noto Serif CJK SC','Source Han Serif SC','STSong','SimSun',Georgia,serif">夜</text>
+
+  <rect width="800" height="620" fill="url(#vignette)"/>
+</svg>

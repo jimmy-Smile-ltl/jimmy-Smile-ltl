@@ -1,115 +1,121 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" width="800" height="620" role="img">
   <title>观测者，旧时代的余孽，在聆听时代的声音</title>
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0a0f1e"/>
-      <stop offset="1" stop-color="#141c31"/>
-    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a0f1e"/><stop offset="1" stop-color="#141c31"/></linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#161d30"/><stop offset="1" stop-color="#161d30"/></linearGradient>
     <radialGradient id="vignette" cx="0.5" cy="0.45" r="0.8">
       <stop offset="0.62" stop-color="#000" stop-opacity="0"/>
-      <stop offset="1" stop-color="#000" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.3"/>
     </radialGradient>
     <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
       <stop offset="0" stop-color="#f0a05c" stop-opacity="0.85"/>
       <stop offset="0.45" stop-color="#f0a05c" stop-opacity="0.22"/>
       <stop offset="1" stop-color="#f0a05c" stop-opacity="0"/>
     </radialGradient>
+    <radialGradient id="sunGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f5b57a" stop-opacity="0.55"/>
+      <stop offset="0.6" stop-color="#f5b57a" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#f5b57a" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
   <rect width="800" height="620" fill="url(#sky)"/>
-  <circle cx="259.1" cy="67.9" r="1.09" fill="#e8e6df" opacity="0.20"/><circle cx="259.1" cy="67.9" r="3.3" fill="#e8e6df" opacity="0.03"/>
-  <circle cx="428.7" cy="153.2" r="0.55" fill="#e8e6df" opacity="0.51"/><circle cx="428.7" cy="153.2" r="1.7" fill="#e8e6df" opacity="0.08"/>
-  <circle cx="30.0" cy="180.2" r="0.56" fill="#e8e6df" opacity="0.21"/><circle cx="30.0" cy="180.2" r="1.7" fill="#e8e6df" opacity="0.03"/>
-  <circle cx="339.6" cy="336.3" r="0.61" fill="#e8e6df" opacity="0.31"/><circle cx="339.6" cy="336.3" r="1.8" fill="#e8e6df" opacity="0.05"/>
-  <circle cx="501.9" cy="384.2" r="1.02" fill="#e8e6df" opacity="0.43"/><circle cx="501.9" cy="384.2" r="3.1" fill="#e8e6df" opacity="0.07"/>
-  <circle cx="781.0" cy="26.5" r="1.27" fill="#e8e6df" opacity="0.35"/><circle cx="781.0" cy="26.5" r="3.8" fill="#e8e6df" opacity="0.06"/>
-  <circle cx="115.4" cy="54.8" r="0.78" fill="#e8e6df" opacity="0.72"/>
-  <circle cx="144.6" cy="238.9" r="1.08" fill="#e8e6df" opacity="0.41"/>
-  <circle cx="438.2" cy="32.9" r="0.55" fill="#e8e6df" opacity="0.29"/>
-  <circle cx="544.3" cy="177.8" r="0.78" fill="#e8e6df" opacity="0.56"/>
-  <circle cx="362.5" cy="127.0" r="1.21" fill="#e8e6df" opacity="0.64"/>
+  <circle cx="259.1" cy="67.9" r="1.09" fill="#e8e6df" opacity="0.15"/>
+  <circle cx="259.1" cy="67.9" r="3.3" fill="#e8e6df" opacity="0.02"/>
+  <circle cx="428.7" cy="153.2" r="0.55" fill="#e8e6df" opacity="0.48"/>
+  <circle cx="428.7" cy="153.2" r="1.7" fill="#e8e6df" opacity="0.08"/>
+  <circle cx="30.0" cy="180.2" r="0.56" fill="#e8e6df" opacity="0.17"/>
+  <circle cx="30.0" cy="180.2" r="1.7" fill="#e8e6df" opacity="0.03"/>
+  <circle cx="339.6" cy="336.3" r="0.61" fill="#e8e6df" opacity="0.27"/>
+  <circle cx="339.6" cy="336.3" r="1.8" fill="#e8e6df" opacity="0.04"/>
+  <circle cx="501.9" cy="384.2" r="1.02" fill="#e8e6df" opacity="0.40"/>
+  <circle cx="501.9" cy="384.2" r="3.1" fill="#e8e6df" opacity="0.06"/>
+  <circle cx="781.0" cy="26.5" r="1.27" fill="#e8e6df" opacity="0.32"/>
+  <circle cx="781.0" cy="26.5" r="3.8" fill="#e8e6df" opacity="0.05"/>
+  <circle cx="115.4" cy="54.8" r="0.78" fill="#e8e6df" opacity="0.71"/>
+  <circle cx="144.6" cy="238.9" r="1.08" fill="#e8e6df" opacity="0.38"/>
+  <circle cx="438.2" cy="32.9" r="0.55" fill="#e8e6df" opacity="0.25"/>
+  <circle cx="544.3" cy="177.8" r="0.78" fill="#e8e6df" opacity="0.54"/>
+  <circle cx="362.5" cy="127.0" r="1.21" fill="#e8e6df" opacity="0.62"/>
   <circle cx="195.3" cy="236.0" r="0.97" fill="#e8e6df" opacity="0.76"/>
-  <circle cx="583.6" cy="122.3" r="1.38" fill="#e8e6df" opacity="0.23"/>
-  <circle cx="334.5" cy="308.6" r="0.64" fill="#e8e6df" opacity="0.49"/>
-  <circle cx="31.4" cy="273.3" r="1.19" fill="#e8e6df" opacity="0.55"/>
-  <circle cx="700.4" cy="132.6" r="1.13" fill="#e8e6df" opacity="0.57"/>
+  <circle cx="583.6" cy="122.3" r="1.38" fill="#e8e6df" opacity="0.19"/>
+  <circle cx="334.5" cy="308.6" r="0.64" fill="#e8e6df" opacity="0.47"/>
+  <circle cx="31.4" cy="273.3" r="1.19" fill="#e8e6df" opacity="0.53"/>
+  <circle cx="700.4" cy="132.6" r="1.13" fill="#e8e6df" opacity="0.55"/>
   <circle cx="463.9" cy="189.1" r="1.26" fill="#e8e6df" opacity="0.81"/>
-  <circle cx="379.3" cy="271.7" r="0.55" fill="#e8e6df" opacity="0.64"/>
-  <circle cx="517.7" cy="402.3" r="1.24" fill="#e8e6df" opacity="0.35"/>
-  <circle cx="308.6" cy="273.5" r="0.52" fill="#e8e6df" opacity="0.47"/>
-  <circle cx="134.4" cy="54.5" r="0.55" fill="#e8e6df" opacity="0.69"/>
-  <circle cx="103.5" cy="106.3" r="0.85" fill="#e8e6df" opacity="0.76"/>
-  <circle cx="64.5" cy="186.3" r="0.99" fill="#e8e6df" opacity="0.77"/>
-  <circle cx="655.4" cy="351.0" r="0.75" fill="#e8e6df" opacity="0.44"/>
-  <circle cx="287.0" cy="359.0" r="1.36" fill="#e8e6df" opacity="0.26"/>
-  <circle cx="141.0" cy="100.1" r="0.71" fill="#e8e6df" opacity="0.49"/>
-  <circle cx="471.3" cy="112.3" r="0.50" fill="#e8e6df" opacity="0.44"/>
-  <circle cx="295.4" cy="232.8" r="1.36" fill="#e8e6df" opacity="0.63"/>
-  <circle cx="412.4" cy="253.2" r="1.11" fill="#e8e6df" opacity="0.19"/>
-  <circle cx="719.6" cy="317.6" r="1.29" fill="#e8e6df" opacity="0.71"/>
-  <circle cx="313.9" cy="166.4" r="0.59" fill="#e8e6df" opacity="0.59"/>
-  <circle cx="49.8" cy="34.7" r="0.69" fill="#e8e6df" opacity="0.26"/>
-  <circle cx="272.0" cy="28.9" r="0.50" fill="#e8e6df" opacity="0.26"/>
+  <circle cx="379.3" cy="271.7" r="0.55" fill="#e8e6df" opacity="0.63"/>
+  <circle cx="517.7" cy="402.3" r="1.24" fill="#e8e6df" opacity="0.31"/>
+  <circle cx="308.6" cy="273.5" r="0.52" fill="#e8e6df" opacity="0.45"/>
+  <circle cx="134.4" cy="54.5" r="0.55" fill="#e8e6df" opacity="0.68"/>
+  <circle cx="103.5" cy="106.3" r="0.85" fill="#e8e6df" opacity="0.75"/>
+  <circle cx="64.5" cy="186.3" r="0.99" fill="#e8e6df" opacity="0.76"/>
+  <circle cx="655.4" cy="351.0" r="0.75" fill="#e8e6df" opacity="0.41"/>
+  <circle cx="287.0" cy="359.0" r="1.36" fill="#e8e6df" opacity="0.21"/>
+  <circle cx="141.0" cy="100.1" r="0.71" fill="#e8e6df" opacity="0.46"/>
+  <circle cx="471.3" cy="112.3" r="0.50" fill="#e8e6df" opacity="0.41"/>
+  <circle cx="295.4" cy="232.8" r="1.36" fill="#e8e6df" opacity="0.62"/>
+  <circle cx="412.4" cy="253.2" r="1.11" fill="#e8e6df" opacity="0.14"/>
+  <circle cx="719.6" cy="317.6" r="1.29" fill="#e8e6df" opacity="0.70"/>
+  <circle cx="313.9" cy="166.4" r="0.59" fill="#e8e6df" opacity="0.58"/>
+  <circle cx="49.8" cy="34.7" r="0.69" fill="#e8e6df" opacity="0.22"/>
+  <circle cx="272.0" cy="28.9" r="0.50" fill="#e8e6df" opacity="0.21"/>
   <circle cx="81.2" cy="152.4" r="0.52" fill="#e8e6df" opacity="0.76"/>
-  <circle cx="491.3" cy="67.0" r="0.73" fill="#e8e6df" opacity="0.39"/>
-  <circle cx="291.3" cy="56.8" r="1.26" fill="#e8e6df" opacity="0.85"/>
-  <circle cx="372.8" cy="200.1" r="0.58" fill="#e8e6df" opacity="0.22"/>
-  <circle cx="274.1" cy="113.1" r="1.25" fill="#e8e6df" opacity="0.26"/>
-  <circle cx="18.5" cy="385.5" r="0.98" fill="#e8e6df" opacity="0.25"/>
+  <circle cx="491.3" cy="67.0" r="0.73" fill="#e8e6df" opacity="0.36"/>
+  <circle cx="291.3" cy="56.8" r="1.26" fill="#e8e6df" opacity="0.84"/>
+  <circle cx="372.8" cy="200.1" r="0.58" fill="#e8e6df" opacity="0.18"/>
+  <circle cx="274.1" cy="113.1" r="1.25" fill="#e8e6df" opacity="0.22"/>
+  <circle cx="18.5" cy="385.5" r="0.98" fill="#e8e6df" opacity="0.21"/>
   <circle cx="434.5" cy="18.7" r="0.98" fill="#e8e6df" opacity="0.83"/>
-  <circle cx="690.7" cy="284.4" r="0.74" fill="#e8e6df" opacity="0.41"/>
-  <circle cx="133.6" cy="314.5" r="0.98" fill="#e8e6df" opacity="0.70"/>
+  <circle cx="690.7" cy="284.4" r="0.74" fill="#e8e6df" opacity="0.38"/>
+  <circle cx="133.6" cy="314.5" r="0.98" fill="#e8e6df" opacity="0.68"/>
   <circle cx="263.7" cy="96.5" r="1.23" fill="#e8e6df" opacity="0.84"/>
-  <circle cx="682.1" cy="328.0" r="1.24" fill="#e8e6df" opacity="0.67"/>
-  <circle cx="181.4" cy="213.5" r="0.82" fill="#e8e6df" opacity="0.17"/>
+  <circle cx="682.1" cy="328.0" r="1.24" fill="#e8e6df" opacity="0.65"/>
+  <circle cx="181.4" cy="213.5" r="0.82" fill="#e8e6df" opacity="0.12"/>
 
   <circle cx="700" cy="70" r="34" fill="#e8e6df" opacity="0.13"/>
   <circle cx="687" cy="61" r="26" fill="#141c31" opacity="0.55"/>
 
-  <rect y="430" width="800" height="190" fill="#070a13"/>
-  <rect y="430" width="800" height="2" fill="#2a3350" opacity="0.7"/>
+  <rect y="430" width="800" height="190" fill="url(#ground)"/>
+  <rect y="430" width="800" height="2" fill="#3a4a6e" opacity="0.8"/>
 
-  <ellipse cx="160" cy="438" rx="70" ry="6" fill="#f0a05c" opacity="0.07"/>
-  <ellipse cx="620" cy="438" rx="46" ry="5" fill="#000" opacity="0.45"/>
+  <ellipse cx="160" cy="438" rx="70" ry="6" fill="#f0a05c" opacity="0.12"/>
+  <ellipse cx="620" cy="438" rx="46" ry="5" fill="#000" opacity="0.40"/>
 
-  <!-- signal arcs from antenna tip (108,250) -->
   <path d="M151,250 A44,44 0 0 0 65,250" fill="none" stroke="#7fd8d0" stroke-width="2.2" opacity="0.35"/>
   <path d="M167,250 A60,60 0 0 0 49,250" fill="none" stroke="#7fd8d0" stroke-width="2.2" opacity="0.25"/>
   <path d="M183,250 A76,76 0 0 0 33,250" fill="none" stroke="#7fd8d0" stroke-width="2.2" opacity="0.16"/>
   <circle cx="78" cy="209" r="1.8" fill="#7fd8d0" opacity="0.6"/>
 
   <line x1="108" y1="250" x2="150" y2="372" stroke="#49536b" stroke-width="2"/>
-  <circle cx="108" cy="250" r="16" fill="url(#glow)"/>
+  <circle cx="108" cy="250" r="14" fill="url(#glow)"/>
   <circle cx="108" cy="250" r="3" fill="#f0a05c"/>
-
-  <!-- radio -->
-  <rect x="110" y="372" width="100" height="52" rx="10" fill="#161d2e" stroke="#39445e" stroke-width="1.5"/>
+  <rect x="110" y="372" width="100" height="52" rx="10" fill="#1e2838" stroke="#4a5a78" stroke-width="1.5"/>
   <rect x="134" y="352" width="8" height="20" rx="4" fill="#e8873f" opacity="0.9"/>
   <circle cx="138" cy="372" r="6" fill="#ffc27a"/>
-  <circle cx="138" cy="376" r="16" fill="url(#glow)"/>
-  <circle cx="150" cy="398" r="13" fill="#0b101c" stroke="#39445e" stroke-width="1.5"/>
+  <circle cx="138" cy="376" r="15" fill="url(#glow)"/>
+  <circle cx="150" cy="398" r="13" fill="#0e1420" stroke="#4a5a78" stroke-width="1.5"/>
   <line x1="150" y1="398" x2="157" y2="389" stroke="#e0b47f" stroke-width="1.3"/>
-  <line x1="180" y1="384" x2="180" y2="414" stroke="#2a3550" stroke-width="2"/>
-  <line x1="185" y1="384" x2="185" y2="414" stroke="#2a3550" stroke-width="2"/>
-  <line x1="190" y1="384" x2="190" y2="414" stroke="#2a3550" stroke-width="2"/>
-  <rect x="118" y="424" width="7" height="9" rx="2" fill="#39445e"/>
-  <rect x="200" y="424" width="7" height="9" rx="2" fill="#39445e"/>
+  <line x1="180" y1="384" x2="180" y2="414" stroke="#3a4a68" stroke-width="2"/>
+  <line x1="185" y1="384" x2="185" y2="414" stroke="#3a4a68" stroke-width="2"/>
+  <line x1="190" y1="384" x2="190" y2="414" stroke="#3a4a68" stroke-width="2"/>
+  <rect x="118" y="424" width="7" height="9" rx="2" fill="#4a5a78"/>
+  <rect x="200" y="424" width="7" height="9" rx="2" fill="#4a5a78"/>
 
-  <!-- observer -->
   <circle cx="620" cy="300" r="19" fill="#05070d"/>
-  <path d="M601,300 A19,19 0 0 0 614,282" fill="none" stroke="#e0b47f" stroke-width="1.8" opacity="0.35" stroke-linecap="round"/>
+  <path d="M601,300 A19,19 0 0 0 607,283" fill="none" stroke="#e0b47f" stroke-width="2.2" opacity="0.5" stroke-linecap="round"/>
   <rect x="613" y="318" width="14" height="8" fill="#05070d"/>
   <path d="M604,326 C598,345 596,370 597,398 L645,398 C646,370 644,345 638,326 Z" fill="#05070d"/>
-  <path d="M604,326 C598,345 596,370 597,398" fill="none" stroke="#e0b47f" stroke-width="1.8" opacity="0.18"/>
+  <path d="M604,326 C598,345 596,370 597,398" fill="none" stroke="#e0b47f" stroke-width="1.8" opacity="0.28"/>
   <path d="M603,398 L599,434 L613,434 L616,398 Z" fill="#05070d"/>
   <path d="M618,398 L622,434 L636,434 L633,398 Z" fill="#05070d"/>
   <path d="M634,336 L660,360 L648,318" fill="none" stroke="#05070d" stroke-width="13" stroke-linecap="round"/>
 
-  <!-- text -->
-  <rect x="352" y="96" width="96" height="1.5" fill="#e0b47f" opacity="0.55"/>
-  <text x="400" y="172" text-anchor="middle" font-family="'Songti SC','Noto Serif CJK SC','Source Han Serif SC','STSong','SimSun',Georgia,serif" font-size="44" letter-spacing="4" fill="#ece7dc">观测者<tspan fill="#e0b47f">，旧时代的余孽</tspan></text>
-  <text x="400" y="226" text-anchor="middle" font-family="'Songti SC','Noto Serif CJK SC','Source Han Serif SC','STSong','SimSun',Georgia,serif" font-size="30" letter-spacing="3" fill="#a8b0c2">在<tspan fill="#e0b47f">聆听</tspan>时代的声音</text>
-  <text x="400" y="268" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="14" letter-spacing="3" fill="#6b7690">AN OBSERVER, A REMNANT OF THE OLD ERA</text>
+  <!-- typography -->
+  <rect x="345" y="96" width="110" height="1.5" fill="#e0b47f" opacity="0.55"/>
+  <text x="400" y="172" text-anchor="middle" font-family="'Songti SC','Noto Serif CJK SC','Source Han Serif SC','STSong','SimSun',Georgia,serif" font-size="42" letter-spacing="6" fill="#ece7dc">观测者<tspan fill="#e0b47f">，旧时代的余孽</tspan></text>
+  <text x="400" y="226" text-anchor="middle" font-family="'Songti SC','Noto Serif CJK SC','Source Han Serif SC','STSong','SimSun',Georgia,serif" font-size="30" letter-spacing="5" fill="#9aa3b8">在<tspan fill="#e0b47f">聆听</tspan>时代的声音</text>
+  <text x="400" y="268" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="13" letter-spacing="4" fill="#7a86a0">AN OBSERVER, A REMNANT OF THE OLD ERA</text>
+  <rect x="555" y="292" width="38" height="38" rx="6" fill="#c2453d"/><rect x="556.5" y="293.5" width="35" height="35" rx="5" fill="none" stroke="#a83630" stroke-width="1" opacity="0.7"/><text x="574" y="307" text-anchor="middle" font-size="15" fill="#f5efe6" font-family="'Songti SC','Noto Serif CJK SC','Source Han Serif SC','STSong','SimSun',Georgia,serif">聆</text><text x="574" y="322" text-anchor="middle" font-size="15" fill="#f5efe6" font-family="'Songti SC','Noto Serif CJK SC','Source Han Serif SC','STSong','SimSun',Georgia,serif">听</text>
 
   <rect width="800" height="620" fill="url(#vignette)"/>
 </svg>
