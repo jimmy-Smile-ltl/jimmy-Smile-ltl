@@ -58,11 +58,12 @@
 | --- | --- |
 | [eg_ruishu](https://github.com/jimmy-Smile-ltl/eg_ruishu) | 瑞数 WAF 逆向方案集：12 个真实站点、25+ 技术路线，纯算法 / 补环境 / 浏览器三大技术族 <details><summary>详情</summary><br>· 12 个真实瑞数站点 · 25+ 条技术路线 · 三大技术族<br>· 每条路线都是「能请求到数据的最小可行代码」<br>· 含实测数据与避坑记录，可直接对照落地<br>· 三档方案决策表 + 版本分类速查</details> |
 | [eg_akamai](https://github.com/jimmy-Smile-ltl/eg_akamai) | gatekit：Akamai 挑战的探测 / 分析 / 求解工具包，判据全部可离线回归 <details><summary>详情</summary><br>· 判据全部可离线回归（30/30 offline tests）<br>· 过闸与拿到内容分开计数，不把别家 WAF 算成失败<br>· curl_cffi 运行时</details> |
-| [captcha_example](https://github.com/jimmy-Smile-ltl/captcha_example) <sup>已归档</sup> | 国内主流验证码样本库与求解器：9 家厂商、滑动 / 点选 / 旋转 / 五子棋 / POW 等类型 <details><summary>详情</summary><br>· 9 家厂商：天爱 / 易盾 / 极验 / 腾讯 / 数美 / 顶象等<br>· 类型：滑动拼图、文字点选、图标点选、语序点选、旋转、五子棋、POW<br>· OCR / 目标检测 / 旋转角度 / 相似度匹配模型环境<br>· 已归档，无代码开源版见「筹备中的坐标」</details> |
+| [captcha_example](https://github.com/jimmy-Smile-ltl/captcha_example) <sup>已归档</sup> | 国内主流验证码样本库与求解器：9 家厂商、滑动 / 点选 / 旋转 / 五子棋 / POW 等类型 <details><summary>详情</summary><br>· 9 家厂商：天爱 / 易盾 / 极验 / 腾讯 / 数美 / 顶象等<br>· 类型：滑动拼图、文字点选、图标点选、语序点选、旋转、五子棋、POW<br>· OCR / 目标检测 / 旋转角度 / 相似度匹配模型环境<br>· 已归档；无代码开源版：[eg_captcha](https://github.com/jimmy-Smile-ltl/eg_captcha)</details> |
+| [eg_captcha](https://github.com/jimmy-Smile-ltl/eg_captcha) | 零代码验证码知识库：16 家厂商、88 个厂商×类型、896 组真实样本，只留样本、方法与失败档案 <details><summary>详情</summary><br>· 一行 py、一行 js 都没有：只有 Markdown、JSON、图片与音频<br>· 方法标签：CV / DET / OCR / VLM / ASR / PROTO / ACT，标明是否借助多模态 LLM 与成本<br>· 覆盖极验、易盾、腾讯、数美、顶象、天爱、银联、企讯通、凯格、美团、Amazon、reCAPTCHA、hCaptcha、HUMAN、DataDome、MTCaptcha<br>· 896 组真实样本，滑块、点选、九宫格、音频、游戏题都有；失败与无解也归档<br>· 自带 Claude Code skill，可按厂商/类型/方法检索<br>· 公开非商业研究档案，样本版权归各厂商</details> |
 | [fingerprint](https://github.com/jimmy-Smile-ltl/fingerprint) | 浏览器指纹采集与 Node.js 补环境工具集：六大指纹维度全链路复现 <details><summary>详情</summary><br>· 六大维度：Canvas / WebGL / Audio / 字体 / 硬件 / 时区<br>· 全链路：浏览器采集 → Node.js 补环境 → 真实数据注入 → 指纹一致性验证<br>· Node 22+，MIT</details> |
 | [eg_js_reverse](https://github.com/jimmy-Smile-ltl/eg_js_reverse) | JS 逆向最小化复现集：加密入口 → 算法还原 → 可运行验证 <details><summary>详情</summary><br>· 从实战爬虫项目提取，最简化、可复现、文档清晰<br>· 去掉工程化外壳，只留逆向技术本身<br>· 运行不依赖网络，内置测试向量，一条命令验证<br>· 合规声明：仅用于学习、学术研究与授权测试</details> |
 
-> 验证码专题研究已归档，代码仓库或将在未来关闭——但会另出一个无代码开源版：只有初始样本、最终求解结果与求解思路（见下文「筹备中的坐标」）。想考古的，趁页面还在。
+> 验证码专题研究已归档，代码仓库或将在未来关闭——无代码开源版已经发布：[eg_captcha](https://github.com/jimmy-Smile-ltl/eg_captcha)。只有样本、方法与结果，一行 py、一行 js 都没有。想考古的，趁页面还在。
 
 ### 一些旧物
 
@@ -76,13 +77,14 @@
 
 ## 筹备中的坐标
 
-一些尚未写完的东西，先记在这里。
+一些尚未写完的东西，先记在这里。已经写完的，会搬到上面的坐标里。
 
 | 项目 | 简介 |
 | --- | --- |
 | **GitHub fork 用户画像研究** | 对仓库的全部 fork 用户做账号形态刻画：注册时间、头像、关注比例、fork 时间戳分布。给「fork 背后是怎样的社区」一个可复现的数据答案，也为识别异常活跃模式提供参考。 <details><summary>详情</summary><br>· 输入：任意仓库的 fork 列表<br>· 信号：注册时间 / 默认头像 / 关注比例 / fork 时间戳分布<br>· 输出：社区构成数据画像，异常活跃模式仅作参考提示<br>· 原则：中性研究，不针对任何个体</details> |
 | **多开管理器**（重构中） | Claude Code / Codex 会话多开，每个会话独立 token 与 API 地址，外加项目状态管理。目前的形态太丑、逻辑不顺，super agent 框架兴起后正在重写定位。开源时间待定。 <details><summary>详情</summary><br>· 会话隔离：每个会话独立 token 与 API 地址，互不串扰<br>· 项目状态管理：上下文 / 进度 / 配置按项目隔离<br>· 重构方向：「多开」降级为手段，「会话与项目状态管理」升格为主题<br>· 为什么重构：super agent 框架（Claude Agent SDK 等）兴起后原定位被架空</details> |
-| **验证码无代码版** | 代码仓库关闭后的赎罪之作：只有初始样本、最终求解结果与求解思路。一行 py、一行 js 都没有。知识留下来，武器不发放。 <details><summary>详情</summary><br>· 结构设想：samples/ 原始样本 · solved/ 求解结果 · docs/ 每家厂商一篇思路复盘<br>· 零代码：一行 py、一行 js 都没有<br>· 定位：知识传播，不提供工具——想滥用的人得自己动手写</details> |
+
+> 验证码无代码版已从筹备表毕业，搬到上面的「反爬逆向 · 指纹 · 验证码」。
 
 <div align="center">
   <img src="assets/divider.svg" alt="" width="100%">
