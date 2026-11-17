@@ -44,6 +44,7 @@
 | --- | --- |
 | [forager-faculty](https://github.com/jimmy-Smile-ltl/forager-faculty) | LLM 驱动的自适应高校教师信息采集框架：评估-修复-再评估闭环、四阶段流水线、五级反 WAF 请求栈 <details><summary>详情</summary><br>· evaluate-fix-re-evaluate 自愈闭环，质量不达标自动诊断重跑<br>· 四阶段流水线：学校 → 院系 → 教师名录 → 教师详情<br>· 五级反 WAF 请求栈：curl_cffi TLS 伪装、浏览器兜底<br>· 实战：144 所高校、40.5 万教师无人值守跑完</details> |
 | [forager-epaper](https://github.com/jimmy-Smile-ltl/forager-epaper) | Paper Daily：中文日报自动采集流水线，一条命令生成生产级爬虫，自愈反馈环 + 零配置降级 <details><summary>详情</summary><br>· 一条命令：报纸名 → 发现入口 → 侦查结构 → 生成 spider → 验证打分 → 入库<br>· LLM 只在三个固定工位工作，管线控制流由代码固定<br>· 质量分 <60 自动诊断改进（≤3 轮），失败自愈<br>· 无 MySQL / PG / Mongo 时自动降级本地 JSONL，零配置可跑<br>· 20 个开箱示例站点 + 上千站点知识库</details> |
+| [forager-gov](https://github.com/jimmy-Smile-ltl/forager-gov) | 中国政府网站体系图谱：从中央到省、市、县梳理各级人民政府及人大、政协、法院、检察院、监委、群团等条线官网，块 × 条双维树 + 列表 / 树图 / 地图三视图。线上站点：<https://forager-gov.pages.dev> <details><summary>详情</summary><br>· 规模：31 省区市 + 新疆兵团 · 333 地级市 · 近 3,000 县级，3 万+ 机构与区划节点<br>· 双维：块视图按行政区划逐级下钻；条视图把 16 个垂直系统按省—市—县重组<br>· 视图：机构清单 / 思维导图式树图 / 三级下钻地图，覆盖率着色 + 数据健康面板<br>· 采集纪律：零域名猜测，URL 全部来自上级官网名录、政府门户导航或严格验证的官方页面<br>· 数据：统一机构记录（USR）落 tree.json / site_registry.json，三视图同源消费<br>· 发布：Cloudflare Pages，push 自动构建</details> |
 
 ### 爬虫框架与工程
 
@@ -82,11 +83,10 @@
 
 | 项目 | 简介 |
 | --- | --- |
-| **政府网站图谱** | 从中央到省、市、县，梳理各级人民政府及其下属机构，并覆盖人大、政府、法院、检察院、纪委监委、群团组织等条线的官方网站门户 <details><summary>详情</summary><br>· 层级：中央 → 省 → 市 → 县<br>· 政府序列：本级政府及下属部门、直属机构、事业单位、派出机构<br>· 条线：人大 / 政府 / 法院 / 检察院 / 纪委监委 / 群团组织（工会、团委、妇联、残联、科协、文联等）<br>· 字段：名称 / 层级 / 所属条线 / 行政区划 / 门户 URL / 上级单位 / 备注<br>· 输出：结构化清单 + 关系图谱 + 维护说明<br>· 状态：筹备中，先搭框架与字段，再逐级补全</details> |
 | **GitHub fork 用户画像研究** | 对仓库的全部 fork 用户做账号形态刻画：注册时间、头像、关注比例、fork 时间戳分布。给「fork 背后是怎样的社区」一个可复现的数据答案，也为识别异常活跃模式提供参考。 <details><summary>详情</summary><br>· 输入：任意仓库的 fork 列表<br>· 信号：注册时间 / 默认头像 / 关注比例 / fork 时间戳分布<br>· 输出：社区构成数据画像，异常活跃模式仅作参考提示<br>· 原则：中性研究，不针对任何个体</details> |
 | **多开管理器**（重构中） | Claude Code / Codex 会话多开，每个会话独立 token 与 API 地址，外加项目状态管理。目前的形态太丑、逻辑不顺，super agent 框架兴起后正在重写定位。开源时间待定。 <details><summary>详情</summary><br>· 会话隔离：每个会话独立 token 与 API 地址，互不串扰<br>· 项目状态管理：上下文 / 进度 / 配置按项目隔离<br>· 重构方向：「多开」降级为手段，「会话与项目状态管理」升格为主题<br>· 为什么重构：super agent 框架（Claude Agent SDK 等）兴起后原定位被架空</details> |
 
-> 验证码无代码版已从筹备表毕业，搬到上面的「反爬逆向 · 指纹 · 验证码」。
+> 验证码无代码版、政府网站图谱已分别从筹备表毕业，搬到上面的「反爬逆向 · 指纹 · 验证码」与「LLM Agent · 智能采集」。
 
 <div align="center">
   <img src="assets/divider.svg" alt="" width="100%">
