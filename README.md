@@ -66,6 +66,12 @@
 
 > 验证码专题研究已归档，代码仓库或将在未来关闭——无代码开源版已经发布：[eg_captcha](https://github.com/jimmy-Smile-ltl/eg_captcha)，并配有[在线浏览器](https://eg-captcha-viewer.jimmysmileltl.workers.dev/)。只有样本、方法与结果，一行 py、一行 js 都没有。想考古的，趁页面还在。
 
+### 数据研究 · 方法学
+
+| 项目 | 简介 |
+| --- | --- |
+| [fork-detectability](https://github.com/jimmy-Smile-ltl/fork-detectability) | 用 29.8 万个 GitHub forker 的公开数据，量化「判断一个仓库的 fork 是否异常」到底能做到什么程度：7 条判据在两组之间零重叠、4 条统计显著，并完整记录判据随对照扩大而衰减的过程 <details><summary>详情</summary><br>· 规模：17 个仓库、36.1 万 forker 名单、29.8 万账号档案（82.6%），每人 9 个维度<br>· 设计：4 个「有外部质疑」的仓 vs 4 个「无任何质疑」的仓做对照，判据不依赖分组依据<br>· 最强判据 Pull Shark（协作徽章）差 12.3 个百分点：A 侧 88–97% 的 forker 从未参与过任何协作开发<br>· 次强：有自建仓 10.2pp、零粉丝 6.8pp、零提交 6.7pp（均通过 95% 置信检验）<br>· 负面结果同样记录：21 条直觉判据大部分失效——「fork 后动过」在 A 侧跨 6.6–91.4%，完全包住 B 侧<br>· 判据衰减曲线：对照从 2 仓扩到 8 仓，最强判据从 32.3pp 缩到 12.3pp。每加一个干净对照，判据就弱一分<br>· 8 次自我否定，包括撤回自己提出的「watchers/★ 是有效筛选信号」——按预测变量选样再验证它，属循环论证<br>· 边界：只证明群体层的形态差异，不证明任何具体仓库或账号的造假行为<br>· 代码 MIT，文档 24 份，数据不入库但采集脚本完整可复现</details> |
+
 ### 一些旧物
 
 | 项目 | 简介 |
@@ -83,10 +89,9 @@
 
 | 项目 | 简介 |
 | --- | --- |
-| **GitHub fork 用户画像研究** | 对仓库的全部 fork 用户做账号形态刻画：注册时间、头像、关注比例、fork 时间戳分布。给「fork 背后是怎样的社区」一个可复现的数据答案，也为识别异常活跃模式提供参考。 <details><summary>详情</summary><br>· 输入：任意仓库的 fork 列表<br>· 信号：注册时间 / 默认头像 / 关注比例 / fork 时间戳分布<br>· 输出：社区构成数据画像，异常活跃模式仅作参考提示<br>· 原则：中性研究，不针对任何个体</details> |
 | **多开管理器**（重构中） | Claude Code / Codex 会话多开，每个会话独立 token 与 API 地址，外加项目状态管理。目前的形态太丑、逻辑不顺，super agent 框架兴起后正在重写定位。开源时间待定。 <details><summary>详情</summary><br>· 会话隔离：每个会话独立 token 与 API 地址，互不串扰<br>· 项目状态管理：上下文 / 进度 / 配置按项目隔离<br>· 重构方向：「多开」降级为手段，「会话与项目状态管理」升格为主题<br>· 为什么重构：super agent 框架（Claude Agent SDK 等）兴起后原定位被架空</details> |
 
-> 验证码无代码版、政府网站图谱已分别从筹备表毕业，搬到上面的「反爬逆向 · 指纹 · 验证码」与「LLM Agent · 智能采集」。
+> 验证码无代码版、政府网站图谱已分别从筹备表毕业，搬到上面的「反爬逆向 · 指纹 · 验证码」与「LLM Agent · 智能采集」；GitHub fork 用户画像研究已毕业并更名为 [fork-detectability](https://github.com/jimmy-Smile-ltl/fork-detectability)，搬到上面的「数据研究 · 方法学」。
 
 <div align="center">
   <img src="assets/divider.svg" alt="" width="100%">
