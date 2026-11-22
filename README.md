@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-<p>目次 · <a href="#试图征服世界">试图征服世界</a> · <a href="#征服之路上的坐标">坐标</a> · <a href="#一些旧物">旧物</a> · <a href="#筹备中的坐标">筹备</a></p>
+<p>目次 · <a href="#试图征服世界">试图征服世界</a> · <a href="#征服之路上的坐标">坐标</a> · <a href="#一些旧物">旧物</a> · <a href="#毕业记录">毕业</a> · <a href="#新时代来临的证据">新时代</a></p>
 </div>
 
 <div align="center">
@@ -46,6 +46,12 @@
 | [forager-epaper](https://github.com/jimmy-Smile-ltl/forager-epaper) | Paper Daily：中文日报自动采集流水线，一条命令生成生产级爬虫，自愈反馈环 + 零配置降级 <details><summary>详情</summary><br>· 一条命令：报纸名 → 发现入口 → 侦查结构 → 生成 spider → 验证打分 → 入库<br>· LLM 只在三个固定工位工作，管线控制流由代码固定<br>· 质量分 <60 自动诊断改进（≤3 轮），失败自愈<br>· 无 MySQL / PG / Mongo 时自动降级本地 JSONL，零配置可跑<br>· 20 个开箱示例站点 + 上千站点知识库</details> |
 | [forager-gov](https://github.com/jimmy-Smile-ltl/forager-gov) | 中国政府网站体系图谱：从中央到省、市、县梳理各级人民政府及人大、政协、法院、检察院、监委、群团等条线官网，块 × 条双维树 + 列表 / 树图 / 地图三视图。线上站点：<https://forager-gov.pages.dev> <details><summary>详情</summary><br>· 规模：31 省区市 + 新疆兵团 · 333 地级市 · 近 3,000 县级，3 万+ 机构与区划节点<br>· 双维：块视图按行政区划逐级下钻；条视图把 16 个垂直系统按省—市—县重组<br>· 视图：机构清单 / 思维导图式树图 / 三级下钻地图，覆盖率着色 + 数据健康面板<br>· 采集纪律：零域名猜测，URL 全部来自上级官网名录、政府门户导航或严格验证的官方页面<br>· 数据：统一机构记录（USR）落 tree.json / site_registry.json，三视图同源消费<br>· 发布：Cloudflare Pages，push 自动构建</details> |
 
+### LLM Agent · 开发工具
+
+| 项目 | 简介 |
+| --- | --- |
+| [agent-multi-token](https://github.com/jimmy-Smile-ltl/agent-multi-token) <sup>已归档</sup> | 把 Claude Code / Codex CLI 的全局唯一配置变成按路径解析的身份：一个目录一个 token、一个 profile、一份互不串味的会话历史 <details><summary>详情</summary><br>· 两个零依赖 Node CLI：cmt 包装 Claude Code、cxt 包装 Codex，按 cwd 分层解析 token / baseUrl / model<br>· 分层合并：全局默认 → token → 路径绑定 → 项目内 .cmt.json / .cxt.json，CLI 参数最高；四要素缺失或 ${VAR} 未展开直接拒绝启动<br>· 一个 token 一个 profile（CLAUDE_CONFIG_DIR / CODEX_HOME），多窗口并行互不串味；run / exec 两段式启动，先清理继承环境再注入身份<br>· TUI + 本地 Web 控制台共用同一套逻辑；另有 token 池、用量费用、会话注册表、文件邮箱<br>· Node ≥ 18、零运行时依赖、无构建步骤；Windows 为主测平台<br>· 已归档，作为「带可执行证据的设计文档」发布；MIT，未发布 npm</details> |
+
 ### 爬虫框架与工程
 
 | 项目 | 简介 |
@@ -83,15 +89,26 @@
   <img src="assets/divider.svg" alt="" width="100%">
 </div>
 
-## 筹备中的坐标
+## 毕业记录
 
-一些尚未写完的东西，先记在这里。已经写完的，会搬到上面的坐标里。
+以下坐标已从筹备表毕业，按用途迁入上面的分区；筹备表就此清空。
 
-| 项目 | 简介 |
-| --- | --- |
-| **多开管理器**（重构中） | Claude Code / Codex 会话多开，每个会话独立 token 与 API 地址，外加项目状态管理。目前的形态太丑、逻辑不顺，super agent 框架兴起后正在重写定位。开源时间待定。 <details><summary>详情</summary><br>· 会话隔离：每个会话独立 token 与 API 地址，互不串扰<br>· 项目状态管理：上下文 / 进度 / 配置按项目隔离<br>· 重构方向：「多开」降级为手段，「会话与项目状态管理」升格为主题<br>· 为什么重构：super agent 框架（Claude Agent SDK 等）兴起后原定位被架空</details> |
+- 验证码无代码版 → [eg_captcha](https://github.com/jimmy-Smile-ltl/eg_captcha)，「反爬逆向 · 指纹 · 验证码」
+- 政府网站图谱 → [forager-gov](https://github.com/jimmy-Smile-ltl/forager-gov)，「LLM Agent · 智能采集」
+- GitHub fork 用户画像研究 → 更名为 [fork-detectability](https://github.com/jimmy-Smile-ltl/fork-detectability)，「数据研究 · 方法学」
+- 多开管理器 → [agent-multi-token](https://github.com/jimmy-Smile-ltl/agent-multi-token)，「LLM Agent · 开发工具」
 
-> 验证码无代码版、政府网站图谱已分别从筹备表毕业，搬到上面的「反爬逆向 · 指纹 · 验证码」与「LLM Agent · 智能采集」；GitHub fork 用户画像研究已毕业并更名为 [fork-detectability](https://github.com/jimmy-Smile-ltl/fork-detectability)，搬到上面的「数据研究 · 方法学」。
+## 新时代来临的证据
+
+何谓新时代？它不宣布自己到来，只留下证据。旧时代的余孽负责归档。
+
+- **2016.03 · AlphaGo** —— 机器在人类的直觉领域落子，并且赢了。
+- **2022.11.30 · ChatGPT** —— 对话框成为新的入口，生产力开始换轨。
+- **2025.05.22 · Claude Code** —— 从对话到做事：Agent 走进终端，读仓库、改代码、留下提交。
+- **2026.11.20 · 黎曼猜想** —— 六周，一千七百万行 Lean，机器核验通过；十二年的人类手稿仍在修订。
+
+> 道心受损，仍需前行。<br>
+> 观测者的前行，不过是把今夜写完。
 
 <div align="center">
   <img src="assets/divider.svg" alt="" width="100%">
